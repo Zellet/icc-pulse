@@ -1,8 +1,17 @@
 name: ICC Pulse - Refresh and deploy
 
-# Stage 3: manual runs only. Scheduling is added after runner access is verified.
+# Daily Pacific time, including changes between PST and PDT.
 on:
+  schedule:
+    - cron: '17 5 * * *'
+      timezone: 'America/Los_Angeles'
   workflow_dispatch:
+    inputs:
+      test_failure_alert:
+        description: 'Test failure email (stops before collection and deployment)'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
@@ -20,6 +29,12 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Test failure notification
+        if: github.event_name == 'workflow_dispatch' && inputs.test_failure_alert
+        run: |
+          echo "Intentional alert test selected. Check your GitHub Actions notification email."
+          exit 1
+
       - name: Check out current main
         uses: actions/checkout@v7
         with:
