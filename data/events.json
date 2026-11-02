@@ -1,42 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-02T07:51:08.034947+00:00",
+  "last_updated": "2026-11-02T22:19:16.927916+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-01T00:00:00-07:00",
-  "window_end_exclusive": "2026-12-02T00:00:00-08:00",
+  "window_start": "2026-11-02T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-03T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 21,
-    "api_collected": 21,
+    "api_reported": 25,
+    "api_collected": 25,
     "outside_window": 1,
-    "included": 20,
-    "rss_supplement_unavailable": 1
+    "included": 24,
+    "rss_supplement_unavailable": 0
   },
-  "warnings": [
-    "1 event(s) are absent from RSS; extra online links could not be checked for them."
-  ],
+  "warnings": [],
   "events": [
-    {
-      "id": "12925445",
-      "title": "Asian Art Museum Visit",
-      "primary_club": "Architecture Construction Engineering",
-      "primary_club_id": "263445",
-      "club_names": [
-        "Architecture Construction Engineering"
-      ],
-      "club_color_key": "organization:263445",
-      "location": "Asian Art Museum",
-      "online_url": null,
-      "start": "2026-11-01T12:00:00-08:00",
-      "end": "2026-11-01T14:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12925445",
-      "online_url_source": null,
-      "rss_supplement_status": "not_in_rss"
-    },
     {
       "id": "12924818",
       "title": "Incontinence Pad Packing Party!",
@@ -175,6 +156,23 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12946742",
+      "title": "Kabayan Kaibigan Study jam #2",
+      "primary_club": "Kabayan Kaibigan (Filipino Club)",
+      "primary_club_id": "387206",
+      "club_names": [
+        "Kabayan Kaibigan (Filipino Club)"
+      ],
+      "club_color_key": "organization:387206",
+      "location": "BWL 109",
+      "online_url": null,
+      "start": "2026-11-04T17:30:00-08:00",
+      "end": "2026-11-04T19:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12946742",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12918139",
       "title": "Culture Night",
       "primary_club": "Afghan Student Association",
@@ -226,6 +224,23 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12946075",
+      "title": "DVC Poetry Club Third Meeting 🖊️📚",
+      "primary_club": "DVC Poetry Club",
+      "primary_club_id": "435048",
+      "club_names": [
+        "DVC Poetry Club"
+      ],
+      "club_color_key": "organization:435048",
+      "location": "Online",
+      "online_url": "https://4cd.zoom.us/j/7420744584?pwd=6C5pQN2PrvbVSiAz9vWYT7YyWBRx3b.1&omn=85443492017",
+      "start": "2026-11-10T14:00:00-08:00",
+      "end": "2026-11-10T15:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12946075",
+      "online_url_source": "rss_location",
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12927865",
       "title": "ASDVC General Meeting #9",
       "primary_club": "Associated Students of Diablo Valley College",
@@ -273,6 +288,25 @@
       "start": "2026-11-14T12:00:00-08:00",
       "end": "2026-11-14T14:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12938346",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12946505",
+      "title": "Student Panel",
+      "primary_club": "Health Edu",
+      "primary_club_id": "434953",
+      "club_names": [
+        "Health Edu",
+        "Nursing Club",
+        "Women’s Empowerment & Charity Club"
+      ],
+      "club_color_key": "organization:434953",
+      "location": "LA 115",
+      "online_url": null,
+      "start": "2026-11-16T14:30:00-08:00",
+      "end": "2026-11-16T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12946505",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
@@ -328,6 +362,30 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12946863",
+      "title": "International Cultural Expo",
+      "primary_club": "International Students Club",
+      "primary_club_id": "263469",
+      "club_names": [
+        "International Students Club",
+        "Chinese Students Association",
+        "Japanese Association",
+        "Kabayan Kaibigan (Filipino Club)",
+        "South Asian Student Alliance",
+        "Afghan Student Association",
+        "Jewish Student Union",
+        "Taiwanese Student Association"
+      ],
+      "club_color_key": "organization:263469",
+      "location": "DVC the Commons",
+      "online_url": null,
+      "start": "2026-11-19T11:00:00-08:00",
+      "end": "2026-11-19T14:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12946863",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12918196",
       "title": "Aspiring Minds Film Festival",
       "primary_club": "DVC Film Club",
@@ -358,6 +416,23 @@
       "start": "2026-11-24T14:10:00-08:00",
       "end": "2026-11-24T16:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12927863",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12946493",
+      "title": "Black Student Union Friends-Giving",
+      "primary_club": "Black Student Union",
+      "primary_club_id": "370589",
+      "club_names": [
+        "Black Student Union"
+      ],
+      "club_color_key": "organization:370589",
+      "location": "Diablo Room",
+      "online_url": null,
+      "start": "2026-11-25T16:00:00-08:00",
+      "end": "2026-11-25T19:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12946493",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     }
