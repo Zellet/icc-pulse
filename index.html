@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080c10">
+  <meta name="description" content="Find what’s happening at Diablo Valley College. Club events, in Pacific time.">
+  <title>ICC Pulse · DVC club events</title>
+  <link rel="icon" href="assets/icc-logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="event-data.js"></script>
+  <script defer src="calendar-data.js"></script>
+  <script defer src="calendar-export.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to events</a>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand"><img src="assets/icc-logo.png" width="58" height="58" alt="ICC logo"><h1>ICC <span>Pulse</span></h1></div>
+      <p class="byline">By <span class="author-name">Justinn Rodriguez</span> and ICC Board</p>
+    </header>
+    <main id="main" tabindex="-1">
+      <noscript><p class="notice warning">Enable JavaScript to view this calendar, or <a href="https://dvc.campuslabs.com/engage/events">browse events on DVC Synch</a>.</p></noscript>
+      <div id="load-state" class="load-state" role="status">Loading club events…</div>
+      <div id="error-state" class="notice warning" role="alert" hidden><h2>Events couldn’t load</h2><p id="error-message"></p><button id="retry" type="button">Try again</button> <a href="https://dvc.campuslabs.com/engage/events" target="_blank" rel="noopener noreferrer">Check DVC Synch ↗</a></div>
+      <div id="events-content" hidden>
+        <div class="today-overview" role="region" aria-label="Today’s quick look; scroll for more events" tabindex="0">
+      <div id="sample-notice" class="notice" hidden>Sample preview · This is the attached November 1 backup, not a fresh collection. Times below still use today’s actual date.</div>
+      <div id="stale-notice" class="notice warning" role="status" hidden></div>
+        <p id="empty-dataset" class="notice" hidden>No events were listed in this data window. Check DVC Synch for new announcements.</p>
+        <section aria-labelledby="now-heading"><div class="section-heading"><h2 id="now-heading"><span class="live-dot" aria-hidden="true"></span>Happening now</h2><span id="now-count" class="count"></span></div><div id="now-events" class="event-list"></div></section>
+        <section aria-labelledby="next-heading"><div class="section-heading"><h2 id="next-heading">Up next today</h2><span id="next-count" class="count"></span></div><div id="next-events" class="event-list"></div></section>
+        </div>
+        <section class="day-section" aria-labelledby="day-heading">
+          <div class="section-heading calendar-heading"><h2 id="day-heading">Calendar</h2><button id="today-button" type="button">Today</button></div>
+          <div class="calendar-nav" aria-label="Calendar navigation">
+            <button id="previous-day" type="button" aria-label="Previous day">‹</button>
+            <div class="view-switch" role="group" aria-label="Calendar view">
+              <button id="view-day" type="button" aria-pressed="true">Day</button>
+              <button id="view-week" type="button" aria-pressed="false">Week</button>
+              <button id="view-month" type="button" aria-pressed="false">Month</button>
+            </div>
+            <button id="next-day" type="button" aria-label="Next day">›</button>
+          </div>
+          <p id="day-summary" class="day-summary" aria-live="polite"></p>
+          <p class="time-caption">All times Pacific</p>
+          <p id="day-notice" class="notice" hidden></p>
+          <div id="day-scroll" class="day-scroll" tabindex="0" role="region" aria-label="Day calendar, scroll for all hours">
+            <div id="day-timeline" class="day-timeline"></div>
+          </div>
+          <div id="week-panel" hidden>
+            <div id="week-head" class="week-head"></div>
+            <div id="week-scroll" class="day-scroll week-scroll" tabindex="0" role="region" aria-label="Week calendar, scroll for all hours">
+              <div id="week-timeline" class="week-timeline"></div>
+            </div>
+          </div>
+          <div id="month-panel" hidden>
+            <div class="month-weekdays" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+            <div id="month-grid" class="month-grid"></div>
+          </div>
+          <p id="grid-note" class="grid-note">Tap an event for details · Scroll for all hours</p>
+        </section>
+      </div>
+      <div class="source-bar"><p id="last-updated" aria-live="polite">Checking the latest update…</p><a href="https://dvc.campuslabs.com/engage/events" target="_blank" rel="noopener noreferrer">Explore DVC Synch <span aria-hidden="true">↗</span></a></div>
+    </main>
+    <footer><span>ICC Pulse</span></footer>
+  </div>
+  <dialog id="event-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-toolbar"><button id="dialog-back" type="button" hidden>‹ Back</button><button id="dialog-close" type="button" aria-label="Close event details" autofocus>Close ×</button></div>
+    <h2 id="dialog-title"></h2>
+    <div id="dialog-body"></div>
+  </dialog>
+</body>
+</html>

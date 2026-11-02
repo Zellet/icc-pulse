@@ -1,0 +1,75 @@
+ICC PULSE - PART 2, STAGE 5
+FINAL WEBSITE VERIFICATION
+
+RESULT: All 56 automated regression checks passed against final source.
+- 15 data validation / freshness / timezone checks.
+- 15 Day / overlap / date-window checks.
+- 14 Week / Month / clock-transition checks.
+- 12 Google / ICS export checks.
+JavaScript syntax, Python launcher syntax, and sample file checks passed.
+
+Final browser checks:
+- Day, Week and Month navigation in mobile frames; no horizontal page overflow.
+- Busy-day top section ends at 258px of a 568px portrait viewport and
+  385px of an 844px portrait viewport, including the stale-data notice.
+- 568x320 landscape keeps a usable 130px quick-look scroll area.
+- Week overflow -> event -> Back -> Escape works; focus returns to +N.
+- Exact 2:10 PM time and both guest-speaker co-hosts remain present.
+- Google and ICS actions remain in the event popup.
+- Sticky Close/Back controls stay visible while scrolling the popup.
+- Keyboard activation and Skip to events work.
+- Tab and Shift+Tab wrap between first and last popup controls.
+- Successful retry moves focus to main content.
+- Missing file displays HTTP 404 error; retry loads accepted data.
+- Candidate data and malformed JSON show clear errors.
+- Valid empty data displays an empty notice and zero-event date.
+- Loading status is visible; the real 12-second abort shows a timeout message.
+- Stale-data warning remains visible within the quick-look region.
+
+Color checks:
+20 representative text/background pairs exceeded 4.5:1, with a minimum
+measured ratio of 7.80:1. Includes name blue, body/muted text, primary export
+button, and all club colors on cards and Week blocks. This is not a full
+WCAG or screen-reader conformance assessment. Dense Week targets are small;
+Day view remains available through each heading for easier targeting.
+
+Performance observations:
+The two phone-frame fixtures became data-ready at 111ms and 150ms in the
+internal browser. These are local readiness measurements, not hosted mobile
+network tests, largest-contentful-paint scores, or a two-second guarantee.
+Uncompressed website plus original 20-event sample: 439,982 bytes.
+Original logo: 361,535 bytes. No remote fonts/framework scripts are required.
+
+Stage 5 changes:
+- Main sections use consistent headings; event-card text is not a heading.
+- Skip destination accepts focus, retry restores focus, and refresh avoids
+  replacing quick-look content while that region has keyboard focus.
+- Sticky dialog toolbar and short-landscape scroll allowance.
+- JavaScript-disabled source-link fallback and updated stage log label.
+- Permanent preview_website.py launcher and complete WEBSITE_README.md.
+
+Preserved byte-for-byte from Stage 4:
+event-data.js, calendar-data.js, calendar-export.js, ICC logo and sample backup.
+Approved branding, compact layout, two-row controls and all export behavior
+are retained. No date picker or daylight-saving explanatory note was restored.
+
+User-confirmed Stage 4 evidence:
+Accepted data mode; 20 events; last_updated 2026-11-01T23:50:30.834734+00:00;
+Pacific window 2026-11-01 midnight -07:00 through 2026-12-02 midnight -08:00
+exclusive; all website assets and accepted JSON returned HTTP 200.
+User approved the Stage 4 result. Specific calendar app/device was not named.
+
+Limits:
+Agent browser did not independently confirm completed ICS download/import or
+the signed-in Google event form in Stage 4. Generated ICS content passed a
+separate parser on 23 files then; export code is unchanged and its 12 tests
+passed again now. No new personal-calendar events were created.
+No physical-device, full screen-reader, real mobile-network, 60-concurrent-user
+load, public hosting, or PWA verification has been performed in this stage.
+
+Package exclusions:
+No accepted data/events.json, collector replacement, test clock, QA fixtures,
+parser dependencies, or hosting/automation/PWA configuration.
+
+NEXT: Run preview_website.py on Windows and check the final layout. Part 3
+(hosting and daily refresh) follows after final local acceptance.

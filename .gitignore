@@ -1,0 +1,18 @@
+# Local diagnostics and backups; publish only the accepted calendar data.
+collector_output/
+stage*_output/
+icc_pulse_stage*.py
+archive/
+data/events.previous.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Earlier website stages and downloaded packages
+preview_stage*.py
+STAGE*_CHECKS.txt
+STAGE*_README.md
+*.zip

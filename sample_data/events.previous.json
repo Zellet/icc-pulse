@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "candidate_only": false,
+  "last_updated": "2026-11-01T23:31:15.567567+00:00",
+  "timezone": "America/Los_Angeles",
+  "window_start": "2026-11-01T00:00:00-07:00",
+  "window_end_exclusive": "2026-12-02T00:00:00-08:00",
+  "sources": {
+    "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
+    "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
+  },
+  "counts": {
+    "api_reported": 21,
+    "api_collected": 21,
+    "outside_window": 1,
+    "included": 20,
+    "rss_supplement_unavailable": 1
+  },
+  "warnings": [
+    "1 event(s) are absent from RSS; extra online links could not be checked for them."
+  ],
+  "events": [
+    {
+      "id": "12925445",
+      "title": "Asian Art Museum Visit",
+      "primary_club": "Architecture Construction Engineering",
+      "primary_club_id": "263445",
+      "club_names": [
+        "Architecture Construction Engineering"
+      ],
+      "club_color_key": "organization:263445",
+      "location": "Asian Art Museum",
+      "online_url": null,
+      "start": "2026-11-01T12:00:00-08:00",
+      "end": "2026-11-01T14:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12925445",
+      "online_url_source": null,
+      "rss_supplement_status": "not_in_rss"
+    },
+    {
+      "id": "12924818",
+      "title": "Incontinence Pad Packing Party!",
+      "primary_club": "Health Edu",
+      "primary_club_id": "434953",
+      "club_names": [
+        "Health Edu"
+      ],
+      "club_color_key": "organization:434953",
+      "location": "LA-115",
+      "online_url": null,
+      "start": "2026-11-02T14:30:00-08:00",
+      "end": "2026-11-02T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12924818",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12927864",
+      "title": "ASDVC General Meeting #8",
+      "primary_club": "Associated Students of Diablo Valley College",
+      "primary_club_id": "263443",
+      "club_names": [
+        "Associated Students of Diablo Valley College"
+      ],
+      "club_color_key": "organization:263443",
+      "location": "Student Union Building, Conference room 204",
+      "online_url": null,
+      "start": "2026-11-03T14:10:00-08:00",
+      "end": "2026-11-03T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12927864",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12930383",
+      "title": "Catalyst Presents: Jewelry Cleaning",
+      "primary_club": "Catalyst",
+      "primary_club_id": "370092",
+      "club_names": [
+        "Catalyst"
+      ],
+      "club_color_key": "organization:370092",
+      "location": "PS-217",
+      "online_url": null,
+      "start": "2026-11-03T16:00:00-08:00",
+      "end": "2026-11-03T17:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12930383",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12930397",
+      "title": "The Storefront Index: General Meeting + Free Pizza",
+      "primary_club": "The Storefront Index at DVC",
+      "primary_club_id": "435049",
+      "club_names": [
+        "The Storefront Index at DVC"
+      ],
+      "club_color_key": "organization:435049",
+      "location": "BWL-104 - Diablo Valley College",
+      "online_url": null,
+      "start": "2026-11-03T16:00:00-08:00",
+      "end": "2026-11-03T17:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12930397",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12938273",
+      "title": "Path to Medicine Guest Speaker",
+      "primary_club": "Women in Healthcare",
+      "primary_club_id": "426271",
+      "club_names": [
+        "Women in Healthcare",
+        "Pre-PA Club"
+      ],
+      "club_color_key": "organization:426271",
+      "location": "DVC Pleasant Hill, LS-210",
+      "online_url": null,
+      "start": "2026-11-03T16:00:00-08:00",
+      "end": "2026-11-03T17:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12938273",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12925700",
+      "title": "GDG Workshop GM4",
+      "primary_club": "Google Developer Group on Campus DVC",
+      "primary_club_id": "304102",
+      "club_names": [
+        "Google Developer Group on Campus DVC"
+      ],
+      "club_color_key": "organization:304102",
+      "location": "📍 LC202, Diablo Valley College 3 to 4 PM",
+      "online_url": null,
+      "start": "2026-11-04T15:00:00-08:00",
+      "end": "2026-11-04T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12925700",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12930242",
+      "title": "Wise Third meeting",
+      "primary_club": "Women In STEM Excellence",
+      "primary_club_id": "370754",
+      "club_names": [
+        "Women In STEM Excellence"
+      ],
+      "club_color_key": "organization:370754",
+      "location": "MESA general space",
+      "online_url": null,
+      "start": "2026-11-04T16:00:00-08:00",
+      "end": "2026-11-04T17:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12930242",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12926462",
+      "title": "General Meeting #6: Cookie Cutter Printing and Cake Decorations",
+      "primary_club": "The 3D Printing Club",
+      "primary_club_id": "415992",
+      "club_names": [
+        "The 3D Printing Club"
+      ],
+      "club_color_key": "organization:415992",
+      "location": "DVC LC-101",
+      "online_url": null,
+      "start": "2026-11-04T17:30:00-08:00",
+      "end": "2026-11-04T18:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12926462",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12918139",
+      "title": "Culture Night",
+      "primary_club": "Afghan Student Association",
+      "primary_club_id": "399630",
+      "club_names": [
+        "Afghan Student Association"
+      ],
+      "club_color_key": "organization:399630",
+      "location": "Cafeteria",
+      "online_url": null,
+      "start": "2026-11-05T17:00:00-08:00",
+      "end": "2026-11-05T21:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12918139",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12895337",
+      "title": "AGS 2026 Northern Regional Conference",
+      "primary_club": "Alpha Gamma Sigma Honor Society",
+      "primary_club_id": "263428",
+      "club_names": [
+        "Alpha Gamma Sigma Honor Society"
+      ],
+      "club_color_key": "organization:263428",
+      "location": "Las Positas College",
+      "online_url": null,
+      "start": "2026-11-07T09:00:00-08:00",
+      "end": "2026-11-07T15:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12895337",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12935606",
+      "title": "AGS 11/9 Mod Pizza Fundraiser",
+      "primary_club": "Alpha Gamma Sigma Honor Society",
+      "primary_club_id": "263428",
+      "club_names": [
+        "Alpha Gamma Sigma Honor Society"
+      ],
+      "club_color_key": "organization:263428",
+      "location": "Mod Pizza",
+      "online_url": null,
+      "start": "2026-11-09T00:00:00-08:00",
+      "end": "2026-11-09T23:45:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12935606",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12927865",
+      "title": "ASDVC General Meeting #9",
+      "primary_club": "Associated Students of Diablo Valley College",
+      "primary_club_id": "263443",
+      "club_names": [
+        "Associated Students of Diablo Valley College"
+      ],
+      "club_color_key": "organization:263443",
+      "location": "Student Union Building, Conference room 204",
+      "online_url": null,
+      "start": "2026-11-10T14:10:00-08:00",
+      "end": "2026-11-10T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12927865",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12913634",
+      "title": "Catalyst Field Trip: Chabot Space & Science Center (11/14/2026)",
+      "primary_club": "Catalyst",
+      "primary_club_id": "370092",
+      "club_names": [
+        "Catalyst"
+      ],
+      "club_color_key": "organization:370092",
+      "location": "Chabot Space & Science Center",
+      "online_url": null,
+      "start": "2026-11-14T11:00:00-08:00",
+      "end": "2026-11-14T17:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12913634",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12938346",
+      "title": "SFMOMA Visit",
+      "primary_club": "Architecture Construction Engineering",
+      "primary_club_id": "263445",
+      "club_names": [
+        "Architecture Construction Engineering"
+      ],
+      "club_color_key": "organization:263445",
+      "location": "San Francisco Museum of Modern Art",
+      "online_url": null,
+      "start": "2026-11-14T12:00:00-08:00",
+      "end": "2026-11-14T14:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12938346",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12927866",
+      "title": "ASDVC General Meeting #10",
+      "primary_club": "Associated Students of Diablo Valley College",
+      "primary_club_id": "263443",
+      "club_names": [
+        "Associated Students of Diablo Valley College"
+      ],
+      "club_color_key": "organization:263443",
+      "location": "Student Union Building, Conference room 204",
+      "online_url": null,
+      "start": "2026-11-17T14:10:00-08:00",
+      "end": "2026-11-17T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12927866",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12938378",
+      "title": "WISE Fourth meeting",
+      "primary_club": "Women In STEM Excellence",
+      "primary_club_id": "370754",
+      "club_names": [
+        "Women In STEM Excellence"
+      ],
+      "club_color_key": "organization:370754",
+      "location": "Diablo Valley College, MESA general space",
+      "online_url": null,
+      "start": "2026-11-18T16:00:00-08:00",
+      "end": "2026-11-18T17:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12938378",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12938245",
+      "title": "Fifth Nursing Club Meeting - Fall 2026",
+      "primary_club": "Nursing Club",
+      "primary_club_id": "381016",
+      "club_names": [
+        "Nursing Club"
+      ],
+      "club_color_key": "organization:381016",
+      "location": "ST 112, DVC PHC Campus",
+      "online_url": "https://4cd.zoom.us/meeting/register/t3CqNaBqT1254OhlLSKKqg#/registration",
+      "start": "2026-11-18T17:30:00-08:00",
+      "end": "2026-11-18T18:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12938245",
+      "online_url_source": "rss_location",
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12918196",
+      "title": "Aspiring Minds Film Festival",
+      "primary_club": "DVC Film Club",
+      "primary_club_id": "263495",
+      "club_names": [
+        "DVC Film Club"
+      ],
+      "club_color_key": "organization:263495",
+      "location": "Diablo Valley College Public Forum",
+      "online_url": null,
+      "start": "2026-11-19T17:00:00-08:00",
+      "end": "2026-11-19T20:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12918196",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12927863",
+      "title": "ASDVC General Meeting #11",
+      "primary_club": "Associated Students of Diablo Valley College",
+      "primary_club_id": "263443",
+      "club_names": [
+        "Associated Students of Diablo Valley College"
+      ],
+      "club_color_key": "organization:263443",
+      "location": "Student Union Building, Conference room 204",
+      "online_url": null,
+      "start": "2026-11-24T14:10:00-08:00",
+      "end": "2026-11-24T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12927863",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    }
+  ]
+}
