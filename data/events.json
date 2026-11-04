@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-03T20:06:37.774607+00:00",
+  "last_updated": "2026-11-04T20:25:28.503938+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-03T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-04T00:00:00-08:00",
+  "window_start": "2026-11-04T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-05T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
@@ -18,75 +18,6 @@
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12927864",
-      "title": "ASDVC General Meeting #8",
-      "primary_club": "Associated Students of Diablo Valley College",
-      "primary_club_id": "263443",
-      "club_names": [
-        "Associated Students of Diablo Valley College"
-      ],
-      "club_color_key": "organization:263443",
-      "location": "Student Union Building, Conference room 204",
-      "online_url": null,
-      "start": "2026-11-03T14:10:00-08:00",
-      "end": "2026-11-03T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12927864",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12930383",
-      "title": "Catalyst Presents: Jewelry Cleaning",
-      "primary_club": "Catalyst",
-      "primary_club_id": "370092",
-      "club_names": [
-        "Catalyst"
-      ],
-      "club_color_key": "organization:370092",
-      "location": "PS-217",
-      "online_url": null,
-      "start": "2026-11-03T16:00:00-08:00",
-      "end": "2026-11-03T17:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12930383",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12930397",
-      "title": "The Storefront Index: General Meeting + Free Pizza",
-      "primary_club": "The Storefront Index at DVC",
-      "primary_club_id": "435049",
-      "club_names": [
-        "The Storefront Index at DVC"
-      ],
-      "club_color_key": "organization:435049",
-      "location": "BWL-104 - Diablo Valley College",
-      "online_url": null,
-      "start": "2026-11-03T16:00:00-08:00",
-      "end": "2026-11-03T17:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12930397",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12938273",
-      "title": "Path to Medicine Guest Speaker",
-      "primary_club": "Women in Healthcare",
-      "primary_club_id": "426271",
-      "club_names": [
-        "Women in Healthcare",
-        "Pre-PA Club"
-      ],
-      "club_color_key": "organization:426271",
-      "location": "DVC Pleasant Hill, LS-210",
-      "online_url": null,
-      "start": "2026-11-03T16:00:00-08:00",
-      "end": "2026-11-03T17:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12938273",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12925700",
       "title": "GDG Workshop GM4",
@@ -292,6 +223,40 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12951987",
+      "title": "Trauma Candy Salad",
+      "primary_club": "Women’s Empowerment & Charity Club",
+      "primary_club_id": "435053",
+      "club_names": [
+        "Women’s Empowerment & Charity Club"
+      ],
+      "club_color_key": "organization:435053",
+      "location": "BWL106",
+      "online_url": null,
+      "start": "2026-11-12T14:30:00-08:00",
+      "end": "2026-11-12T15:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12951987",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12954042",
+      "title": "Psychology Club General Meeting #5",
+      "primary_club": "DVC Psychology Club",
+      "primary_club_id": "431753",
+      "club_names": [
+        "DVC Psychology Club"
+      ],
+      "club_color_key": "organization:431753",
+      "location": "BWL 105",
+      "online_url": null,
+      "start": "2026-11-12T17:30:00-08:00",
+      "end": "2026-11-12T18:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12954042",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12913634",
       "title": "Catalyst Field Trip: Chabot Space & Science Center (11/14/2026)",
       "primary_club": "Catalyst",
@@ -430,6 +395,23 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12951956",
+      "title": "Kabayan Kaibigan General Meeting #6",
+      "primary_club": "Kabayan Kaibigan (Filipino Club)",
+      "primary_club_id": "387206",
+      "club_names": [
+        "Kabayan Kaibigan (Filipino Club)"
+      ],
+      "club_color_key": "organization:387206",
+      "location": "Community Conference Center",
+      "online_url": null,
+      "start": "2026-11-18T17:30:00-08:00",
+      "end": "2026-11-18T19:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12951956",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12946863",
       "title": "International Cultural Expo",
       "primary_club": "International Students Club",
@@ -501,6 +483,23 @@
       "start": "2026-11-25T16:00:00-08:00",
       "end": "2026-11-25T19:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12946493",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12954034",
+      "title": "Sixth Nursing Club Meeting - Fall 2026",
+      "primary_club": "Nursing Club",
+      "primary_club_id": "381016",
+      "club_names": [
+        "Nursing Club"
+      ],
+      "club_color_key": "organization:381016",
+      "location": "ST 112, DVC PHC Campus",
+      "online_url": null,
+      "start": "2026-11-25T17:30:00-08:00",
+      "end": "2026-11-25T18:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12954034",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     }
