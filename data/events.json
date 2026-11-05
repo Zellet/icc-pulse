@@ -1,91 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-04T20:25:28.503938+00:00",
+  "last_updated": "2026-11-05T20:39:07.927765+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-04T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-05T00:00:00-08:00",
+  "window_start": "2026-11-05T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-06T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 29,
-    "api_collected": 29,
+    "api_reported": 26,
+    "api_collected": 26,
     "outside_window": 1,
-    "included": 28,
+    "included": 25,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12925700",
-      "title": "GDG Workshop GM4",
-      "primary_club": "Google Developer Group on Campus DVC",
-      "primary_club_id": "304102",
-      "club_names": [
-        "Google Developer Group on Campus DVC"
-      ],
-      "club_color_key": "organization:304102",
-      "location": "📍 LC202, Diablo Valley College 3 to 4 PM",
-      "online_url": null,
-      "start": "2026-11-04T15:00:00-08:00",
-      "end": "2026-11-04T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12925700",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12930242",
-      "title": "Wise Third meeting",
-      "primary_club": "Women In STEM Excellence",
-      "primary_club_id": "370754",
-      "club_names": [
-        "Women In STEM Excellence"
-      ],
-      "club_color_key": "organization:370754",
-      "location": "MESA general space",
-      "online_url": null,
-      "start": "2026-11-04T16:00:00-08:00",
-      "end": "2026-11-04T17:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12930242",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12926462",
-      "title": "General Meeting #6: Cookie Cutter Printing and Cake Decorations",
-      "primary_club": "The 3D Printing Club",
-      "primary_club_id": "415992",
-      "club_names": [
-        "The 3D Printing Club"
-      ],
-      "club_color_key": "organization:415992",
-      "location": "DVC LC-101",
-      "online_url": null,
-      "start": "2026-11-04T17:30:00-08:00",
-      "end": "2026-11-04T18:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12926462",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12946742",
-      "title": "Kabayan Kaibigan Study jam #2",
-      "primary_club": "Kabayan Kaibigan (Filipino Club)",
-      "primary_club_id": "387206",
-      "club_names": [
-        "Kabayan Kaibigan (Filipino Club)"
-      ],
-      "club_color_key": "organization:387206",
-      "location": "BWL 109",
-      "online_url": null,
-      "start": "2026-11-04T17:30:00-08:00",
-      "end": "2026-11-04T19:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12946742",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12918139",
       "title": "Culture Night",
@@ -340,6 +272,23 @@
       "start": "2026-11-17T14:10:00-08:00",
       "end": "2026-11-17T16:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12927866",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12957692",
+      "title": "Catalyst Presents: Bead Your Genes",
+      "primary_club": "Catalyst",
+      "primary_club_id": "370092",
+      "club_names": [
+        "Catalyst"
+      ],
+      "club_color_key": "organization:370092",
+      "location": "PL-101",
+      "online_url": null,
+      "start": "2026-11-17T16:00:00-08:00",
+      "end": "2026-11-17T17:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12957692",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
