@@ -1,40 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-05T20:39:07.927765+00:00",
+  "last_updated": "2026-11-06T19:57:16.127125+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-05T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-06T00:00:00-08:00",
+  "window_start": "2026-11-06T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-07T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 26,
-    "api_collected": 26,
+    "api_reported": 25,
+    "api_collected": 25,
     "outside_window": 1,
-    "included": 25,
+    "included": 24,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12918139",
-      "title": "Culture Night",
-      "primary_club": "Afghan Student Association",
-      "primary_club_id": "399630",
-      "club_names": [
-        "Afghan Student Association"
-      ],
-      "club_color_key": "organization:399630",
-      "location": "Cafeteria",
-      "online_url": null,
-      "start": "2026-11-05T17:00:00-08:00",
-      "end": "2026-11-05T21:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12918139",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12895337",
       "title": "AGS 2026 Northern Regional Conference",
