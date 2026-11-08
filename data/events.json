@@ -1,40 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-07T18:01:58.567132+00:00",
+  "last_updated": "2026-11-08T18:21:13.925832+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-07T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-08T00:00:00-08:00",
+  "window_start": "2026-11-08T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-09T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 25,
-    "api_collected": 25,
+    "api_reported": 24,
+    "api_collected": 24,
     "outside_window": 1,
-    "included": 24,
+    "included": 23,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12895337",
-      "title": "AGS 2026 Northern Regional Conference",
-      "primary_club": "Alpha Gamma Sigma Honor Society",
-      "primary_club_id": "263428",
-      "club_names": [
-        "Alpha Gamma Sigma Honor Society"
-      ],
-      "club_color_key": "organization:263428",
-      "location": "Las Positas College",
-      "online_url": null,
-      "start": "2026-11-07T09:00:00-08:00",
-      "end": "2026-11-07T15:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12895337",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12935606",
       "title": "AGS 11/9 Mod Pizza Fundraiser",
