@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-08T18:21:13.925832+00:00",
+  "last_updated": "2026-11-09T22:58:48.621768+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-08T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-09T00:00:00-08:00",
+  "window_start": "2026-11-09T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-10T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 24,
-    "api_collected": 24,
+    "api_reported": 30,
+    "api_collected": 30,
     "outside_window": 1,
-    "included": 23,
+    "included": 29,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
@@ -155,6 +155,24 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12966245",
+      "title": "Rocket Showcase Night--Collaboration with Diablo Aerospace Society",
+      "primary_club": "Society of Physics Students",
+      "primary_club_id": "399477",
+      "club_names": [
+        "Society of Physics Students",
+        "Diablo Aerospace Society"
+      ],
+      "club_color_key": "organization:399477",
+      "location": "PS-121",
+      "online_url": null,
+      "start": "2026-11-12T17:30:00-08:00",
+      "end": "2026-11-12T19:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12966245",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12913634",
       "title": "Catalyst Field Trip: Chabot Space & Science Center (11/14/2026)",
       "primary_club": "Catalyst",
@@ -276,6 +294,40 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12965510",
+      "title": "Portfolio Reviews",
+      "primary_club": "Architecture Construction Engineering",
+      "primary_club_id": "263445",
+      "club_names": [
+        "Architecture Construction Engineering"
+      ],
+      "club_color_key": "organization:263445",
+      "location": "ST-115",
+      "online_url": null,
+      "start": "2026-11-18T14:00:00-08:00",
+      "end": "2026-11-18T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12965510",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12966120",
+      "title": "GDG Workshop GM5",
+      "primary_club": "Google Developer Group on Campus DVC",
+      "primary_club_id": "304102",
+      "club_names": [
+        "Google Developer Group on Campus DVC"
+      ],
+      "club_color_key": "organization:304102",
+      "location": "📍 LC207, Diablo Valley College 3 to 4 PM",
+      "online_url": null,
+      "start": "2026-11-18T15:00:00-08:00",
+      "end": "2026-11-18T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12966120",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12938378",
       "title": "WISE Fourth meeting",
       "primary_club": "Women In STEM Excellence",
@@ -364,6 +416,57 @@
       "start": "2026-11-19T17:00:00-08:00",
       "end": "2026-11-19T20:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12918196",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12966180",
+      "title": "Last SPS Meeting for Fall 2026--Star Viewing Party!",
+      "primary_club": "Society of Physics Students",
+      "primary_club_id": "399477",
+      "club_names": [
+        "Society of Physics Students"
+      ],
+      "club_color_key": "organization:399477",
+      "location": "PS-121",
+      "online_url": null,
+      "start": "2026-11-19T17:30:00-08:00",
+      "end": "2026-11-19T20:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12966180",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12965074",
+      "title": "Open Studio: A Behind-the-Scenes Recording Experience",
+      "primary_club": "Music Production Club",
+      "primary_club_id": "434529",
+      "club_names": [
+        "Music Production Club"
+      ],
+      "club_color_key": "organization:434529",
+      "location": "DVC Viking Studio (Library L 107)",
+      "online_url": null,
+      "start": "2026-11-20T15:00:00-08:00",
+      "end": "2026-11-20T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12965074",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12966201",
+      "title": "South Asian Culture Night",
+      "primary_club": "South Asian Student Alliance",
+      "primary_club_id": "398433",
+      "club_names": [
+        "South Asian Student Alliance"
+      ],
+      "club_color_key": "organization:398433",
+      "location": "DVC Cafeteria",
+      "online_url": null,
+      "start": "2026-11-20T17:00:00-08:00",
+      "end": "2026-11-20T19:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12966201",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
