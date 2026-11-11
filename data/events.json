@@ -1,59 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-10T20:27:44.296134+00:00",
+  "last_updated": "2026-11-11T20:11:24.882839+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-10T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-11T00:00:00-08:00",
+  "window_start": "2026-11-11T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-12T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 28,
-    "api_collected": 28,
+    "api_reported": 26,
+    "api_collected": 26,
     "outside_window": 0,
-    "included": 28,
-    "rss_supplement_unavailable": 1
+    "included": 26,
+    "rss_supplement_unavailable": 0
   },
-  "warnings": [
-    "1 event(s) are absent from RSS; extra online links could not be checked for them."
-  ],
+  "warnings": [],
   "events": [
-    {
-      "id": "12946075",
-      "title": "DVC Poetry Club Third Meeting 🖊️📚",
-      "primary_club": "DVC Poetry Club",
-      "primary_club_id": "435048",
-      "club_names": [
-        "DVC Poetry Club"
-      ],
-      "club_color_key": "organization:435048",
-      "location": "Online",
-      "online_url": "https://4cd.zoom.us/j/7420744584?pwd=6C5pQN2PrvbVSiAz9vWYT7YyWBRx3b.1&omn=85443492017",
-      "start": "2026-11-10T14:00:00-08:00",
-      "end": "2026-11-10T15:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12946075",
-      "online_url_source": "rss_location",
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12927865",
-      "title": "ASDVC General Meeting #9",
-      "primary_club": "Associated Students of Diablo Valley College",
-      "primary_club_id": "263443",
-      "club_names": [
-        "Associated Students of Diablo Valley College"
-      ],
-      "club_color_key": "organization:263443",
-      "location": "Student Union Building, Conference room 204",
-      "online_url": null,
-      "start": "2026-11-10T14:10:00-08:00",
-      "end": "2026-11-10T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12927865",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12947757",
       "title": "Pre-PA Study Jam",
@@ -504,7 +468,7 @@
       "end": "2026-12-10T15:30:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12849554",
       "online_url_source": null,
-      "rss_supplement_status": "not_in_rss"
+      "rss_supplement_status": "matched"
     }
   ]
 }
