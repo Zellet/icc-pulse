@@ -1,57 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-11T20:11:24.882839+00:00",
+  "last_updated": "2026-11-12T20:48:08.237001+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-11T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-12T00:00:00-08:00",
+  "window_start": "2026-11-12T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-13T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 26,
-    "api_collected": 26,
+    "api_reported": 24,
+    "api_collected": 24,
     "outside_window": 0,
-    "included": 26,
+    "included": 24,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12947757",
-      "title": "Pre-PA Study Jam",
-      "primary_club": "Pre-PA Club",
-      "primary_club_id": "425934",
-      "club_names": [
-        "Pre-PA Club"
-      ],
-      "club_color_key": "organization:425934",
-      "location": "BWL-102",
-      "online_url": null,
-      "start": "2026-11-10T17:00:00-08:00",
-      "end": "2026-11-11T18:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12947757",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12947759",
-      "title": "LSA Study Jam",
-      "primary_club": "Latinx Student Alliance",
-      "primary_club_id": "263477",
-      "club_names": [
-        "Latinx Student Alliance"
-      ],
-      "club_color_key": "organization:263477",
-      "location": "H-107",
-      "online_url": null,
-      "start": "2026-11-11T15:00:00-08:00",
-      "end": "2026-11-11T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12947759",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12951987",
       "title": "Trauma Candy Salad",
