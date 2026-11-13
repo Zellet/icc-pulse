@@ -1,75 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-12T20:48:08.237001+00:00",
+  "last_updated": "2026-11-13T20:28:53.301042+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-12T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-13T00:00:00-08:00",
+  "window_start": "2026-11-13T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-14T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 24,
-    "api_collected": 24,
+    "api_reported": 23,
+    "api_collected": 23,
     "outside_window": 0,
-    "included": 24,
+    "included": 23,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12951987",
-      "title": "Trauma Candy Salad",
-      "primary_club": "Women’s Empowerment & Charity Club",
-      "primary_club_id": "435053",
-      "club_names": [
-        "Women’s Empowerment & Charity Club"
-      ],
-      "club_color_key": "organization:435053",
-      "location": "BWL106",
-      "online_url": null,
-      "start": "2026-11-12T14:30:00-08:00",
-      "end": "2026-11-12T15:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12951987",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12954042",
-      "title": "Psychology Club General Meeting #5",
-      "primary_club": "DVC Psychology Club",
-      "primary_club_id": "431753",
-      "club_names": [
-        "DVC Psychology Club"
-      ],
-      "club_color_key": "organization:431753",
-      "location": "BWL 105",
-      "online_url": null,
-      "start": "2026-11-12T17:30:00-08:00",
-      "end": "2026-11-12T18:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12954042",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12966245",
-      "title": "Rocket Showcase Night--Collaboration with Diablo Aerospace Society",
-      "primary_club": "Society of Physics Students",
-      "primary_club_id": "399477",
-      "club_names": [
-        "Society of Physics Students",
-        "Diablo Aerospace Society"
-      ],
-      "club_color_key": "organization:399477",
-      "location": "PS-121",
-      "online_url": null,
-      "start": "2026-11-12T17:30:00-08:00",
-      "end": "2026-11-12T19:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12966245",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12913634",
       "title": "Catalyst Field Trip: Chabot Space & Science Center (11/14/2026)",
@@ -365,6 +313,41 @@
       "start": "2026-11-20T17:00:00-08:00",
       "end": "2026-11-20T19:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12966201",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12978273",
+      "title": "Picnic Hike",
+      "primary_club": "DVC Hiking Club",
+      "primary_club_id": "387746",
+      "club_names": [
+        "DVC Hiking Club"
+      ],
+      "club_color_key": "organization:387746",
+      "location": "Reinhardt Redwood Regional Park",
+      "online_url": null,
+      "start": "2026-11-21T11:00:00-08:00",
+      "end": "2026-11-21T13:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12978273",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12978275",
+      "title": "Destress with DNA Club and Creative Arts Society!",
+      "primary_club": "Disability and Neurodiversity Alliance",
+      "primary_club_id": "417450",
+      "club_names": [
+        "Disability and Neurodiversity Alliance",
+        "Creative Arts Society"
+      ],
+      "club_color_key": "organization:417450",
+      "location": "Student Union 210",
+      "online_url": null,
+      "start": "2026-11-23T13:00:00-08:00",
+      "end": "2026-11-23T14:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12978275",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
