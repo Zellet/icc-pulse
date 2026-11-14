@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-13T20:28:53.301042+00:00",
+  "last_updated": "2026-11-14T18:44:28.572390+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-13T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-14T00:00:00-08:00",
+  "window_start": "2026-11-14T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-15T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
