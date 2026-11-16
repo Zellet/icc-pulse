@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-15T19:22:44.271885+00:00",
+  "last_updated": "2026-11-16T22:52:47.548927+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-15T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-16T00:00:00-08:00",
+  "window_start": "2026-11-16T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-17T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 21,
-    "api_collected": 21,
+    "api_reported": 24,
+    "api_collected": 24,
     "outside_window": 0,
-    "included": 21,
+    "included": 24,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
@@ -89,6 +89,23 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12984510",
+      "title": "YDSA Movie Night: WALL-E",
+      "primary_club": "Young Democratic Socialists of America at DVC",
+      "primary_club_id": "407535",
+      "club_names": [
+        "Young Democratic Socialists of America at DVC"
+      ],
+      "club_color_key": "organization:407535",
+      "location": "DVC Pleasant Hill Campus BWL CCC",
+      "online_url": null,
+      "start": "2026-11-17T17:00:00-08:00",
+      "end": "2026-11-17T19:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12984510",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12947751",
       "title": "Kabayan Kaibigan Mama's Lumpia Takeover",
       "primary_club": "Kabayan Kaibigan (Filipino Club)",
@@ -153,6 +170,23 @@
       "start": "2026-11-18T16:00:00-08:00",
       "end": "2026-11-18T17:30:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12938378",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12984501",
+      "title": "Berkeley Professor Career Panel",
+      "primary_club": "DVC Economics Club",
+      "primary_club_id": "263523",
+      "club_names": [
+        "DVC Economics Club"
+      ],
+      "club_color_key": "organization:263523",
+      "location": "Bistro, Cafeteria, Diablo Valley College",
+      "online_url": null,
+      "start": "2026-11-18T16:00:00-08:00",
+      "end": "2026-11-18T17:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12984501",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
@@ -318,6 +352,23 @@
       "rss_supplement_status": "matched"
     },
     {
+      "id": "12984492",
+      "title": "WISE Research project, presentation",
+      "primary_club": "Women In STEM Excellence",
+      "primary_club_id": "370754",
+      "club_names": [
+        "Women In STEM Excellence"
+      ],
+      "club_color_key": "organization:370754",
+      "location": "Diablo Valley College Cafeteria",
+      "online_url": null,
+      "start": "2026-11-23T16:00:00-08:00",
+      "end": "2026-11-23T17:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12984492",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
       "id": "12927863",
       "title": "ASDVC General Meeting #11",
       "primary_club": "Associated Students of Diablo Valley College",
@@ -331,6 +382,23 @@
       "start": "2026-11-24T14:10:00-08:00",
       "end": "2026-11-24T16:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12927863",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12984496",
+      "title": "Kirigami Creations",
+      "primary_club": "Architecture Construction Engineering",
+      "primary_club_id": "263445",
+      "club_names": [
+        "Architecture Construction Engineering"
+      ],
+      "club_color_key": "organization:263445",
+      "location": "ST-115",
+      "online_url": null,
+      "start": "2026-11-25T14:00:00-08:00",
+      "end": "2026-11-25T16:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12984496",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
@@ -365,23 +433,6 @@
       "start": "2026-11-25T17:30:00-08:00",
       "end": "2026-11-25T18:30:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12954034",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12849554",
-      "title": "General Meeting #3 + GITHUB WORKSHOP!!!",
-      "primary_club": "Project Bracket",
-      "primary_club_id": "345021",
-      "club_names": [
-        "Project Bracket"
-      ],
-      "club_color_key": "organization:345021",
-      "location": "MATH AND ENGINEERING CENTER LC-207",
-      "online_url": null,
-      "start": "2026-12-10T14:30:00-08:00",
-      "end": "2026-12-10T15:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12849554",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     }
