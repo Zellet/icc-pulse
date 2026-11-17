@@ -1,59 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-16T22:52:47.548927+00:00",
+  "last_updated": "2026-11-17T21:45:25.409630+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-16T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-17T00:00:00-08:00",
+  "window_start": "2026-11-17T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-18T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 24,
-    "api_collected": 24,
+    "api_reported": 23,
+    "api_collected": 23,
     "outside_window": 0,
-    "included": 24,
+    "included": 23,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12948806",
-      "title": "Waste Audit - Environmental Affairs Committee",
-      "primary_club": "Associated Students of Diablo Valley College",
-      "primary_club_id": "263443",
-      "club_names": [
-        "Associated Students of Diablo Valley College"
-      ],
-      "club_color_key": "organization:263443",
-      "location": "Student Union Building, Conference room 204",
-      "online_url": null,
-      "start": "2026-11-16T14:00:00-08:00",
-      "end": "2026-11-16T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12948806",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12946505",
-      "title": "Student Panel",
-      "primary_club": "Health Edu",
-      "primary_club_id": "434953",
-      "club_names": [
-        "Health Edu",
-        "Nursing Club",
-        "Women’s Empowerment & Charity Club"
-      ],
-      "club_color_key": "organization:434953",
-      "location": "LA 115",
-      "online_url": null,
-      "start": "2026-11-16T14:30:00-08:00",
-      "end": "2026-11-16T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12946505",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12927866",
       "title": "ASDVC General Meeting #10",
@@ -366,6 +330,23 @@
       "end": "2026-11-23T17:30:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12984492",
       "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12987572",
+      "title": "DVC Poetry Club Fourth Meeting! 📚🖊️",
+      "primary_club": "DVC Poetry Club",
+      "primary_club_id": "435048",
+      "club_names": [
+        "DVC Poetry Club"
+      ],
+      "club_color_key": "organization:435048",
+      "location": "Online",
+      "online_url": "https://4cd.zoom.us/j/7420744584?pwd=6C5pQN2PrvbVSiAz9vWYT7YyWBRx3b.1&omn=85443492017",
+      "start": "2026-11-24T14:00:00-08:00",
+      "end": "2026-11-24T15:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12987572",
+      "online_url_source": "rss_location",
       "rss_supplement_status": "matched"
     },
     {
