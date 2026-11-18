@@ -1,74 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-17T21:45:25.409630+00:00",
+  "last_updated": "2026-11-18T21:26:23.134687+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-17T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-18T00:00:00-08:00",
+  "window_start": "2026-11-18T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-19T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 23,
-    "api_collected": 23,
+    "api_reported": 20,
+    "api_collected": 20,
     "outside_window": 0,
-    "included": 23,
+    "included": 20,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12927866",
-      "title": "ASDVC General Meeting #10",
-      "primary_club": "Associated Students of Diablo Valley College",
-      "primary_club_id": "263443",
-      "club_names": [
-        "Associated Students of Diablo Valley College"
-      ],
-      "club_color_key": "organization:263443",
-      "location": "Student Union Building, Conference room 204",
-      "online_url": null,
-      "start": "2026-11-17T14:10:00-08:00",
-      "end": "2026-11-17T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12927866",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12957692",
-      "title": "Catalyst Presents: Bead Your Genes",
-      "primary_club": "Catalyst",
-      "primary_club_id": "370092",
-      "club_names": [
-        "Catalyst"
-      ],
-      "club_color_key": "organization:370092",
-      "location": "PL-101",
-      "online_url": null,
-      "start": "2026-11-17T16:00:00-08:00",
-      "end": "2026-11-17T17:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12957692",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12984510",
-      "title": "YDSA Movie Night: WALL-E",
-      "primary_club": "Young Democratic Socialists of America at DVC",
-      "primary_club_id": "407535",
-      "club_names": [
-        "Young Democratic Socialists of America at DVC"
-      ],
-      "club_color_key": "organization:407535",
-      "location": "DVC Pleasant Hill Campus BWL CCC",
-      "online_url": null,
-      "start": "2026-11-17T17:00:00-08:00",
-      "end": "2026-11-17T19:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12984510",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12947751",
       "title": "Kabayan Kaibigan Mama's Lumpia Takeover",
