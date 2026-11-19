@@ -1,142 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-18T21:26:23.134687+00:00",
+  "last_updated": "2026-11-19T21:30:21.772538+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-18T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-19T00:00:00-08:00",
+  "window_start": "2026-11-19T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-20T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 20,
-    "api_collected": 20,
+    "api_reported": 14,
+    "api_collected": 14,
     "outside_window": 0,
-    "included": 20,
+    "included": 14,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12947751",
-      "title": "Kabayan Kaibigan Mama's Lumpia Takeover",
-      "primary_club": "Kabayan Kaibigan (Filipino Club)",
-      "primary_club_id": "387206",
-      "club_names": [
-        "Kabayan Kaibigan (Filipino Club)"
-      ],
-      "club_color_key": "organization:387206",
-      "location": "Mama's Lumpia",
-      "online_url": null,
-      "start": "2026-11-18T11:00:00-08:00",
-      "end": "2026-11-18T20:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12947751",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12965510",
-      "title": "Portfolio Reviews",
-      "primary_club": "Architecture Construction Engineering",
-      "primary_club_id": "263445",
-      "club_names": [
-        "Architecture Construction Engineering"
-      ],
-      "club_color_key": "organization:263445",
-      "location": "ST-115",
-      "online_url": null,
-      "start": "2026-11-18T14:00:00-08:00",
-      "end": "2026-11-18T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12965510",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12966120",
-      "title": "GDG Workshop GM5",
-      "primary_club": "Google Developer Group on Campus DVC",
-      "primary_club_id": "304102",
-      "club_names": [
-        "Google Developer Group on Campus DVC"
-      ],
-      "club_color_key": "organization:304102",
-      "location": "📍 LC207, Diablo Valley College 3 to 4 PM",
-      "online_url": null,
-      "start": "2026-11-18T15:00:00-08:00",
-      "end": "2026-11-18T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12966120",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12938378",
-      "title": "WISE Fourth meeting",
-      "primary_club": "Women In STEM Excellence",
-      "primary_club_id": "370754",
-      "club_names": [
-        "Women In STEM Excellence"
-      ],
-      "club_color_key": "organization:370754",
-      "location": "Diablo Valley College, MESA general space",
-      "online_url": null,
-      "start": "2026-11-18T16:00:00-08:00",
-      "end": "2026-11-18T17:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12938378",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12984501",
-      "title": "Berkeley Professor Career Panel",
-      "primary_club": "DVC Economics Club",
-      "primary_club_id": "263523",
-      "club_names": [
-        "DVC Economics Club"
-      ],
-      "club_color_key": "organization:263523",
-      "location": "Bistro, Cafeteria, Diablo Valley College",
-      "online_url": null,
-      "start": "2026-11-18T16:00:00-08:00",
-      "end": "2026-11-18T17:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12984501",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12938245",
-      "title": "Fifth Nursing Club Meeting - Fall 2026",
-      "primary_club": "Nursing Club",
-      "primary_club_id": "381016",
-      "club_names": [
-        "Nursing Club"
-      ],
-      "club_color_key": "organization:381016",
-      "location": "ST 112, DVC PHC Campus",
-      "online_url": "https://4cd.zoom.us/meeting/register/t3CqNaBqT1254OhlLSKKqg#/registration",
-      "start": "2026-11-18T17:30:00-08:00",
-      "end": "2026-11-18T18:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12938245",
-      "online_url_source": "rss_location",
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12951956",
-      "title": "Kabayan Kaibigan General Meeting #6",
-      "primary_club": "Kabayan Kaibigan (Filipino Club)",
-      "primary_club_id": "387206",
-      "club_names": [
-        "Kabayan Kaibigan (Filipino Club)"
-      ],
-      "club_color_key": "organization:387206",
-      "location": "Community Conference Center",
-      "online_url": null,
-      "start": "2026-11-18T17:30:00-08:00",
-      "end": "2026-11-18T19:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12951956",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12946863",
       "title": "International Cultural Expo",
@@ -346,6 +227,23 @@
       "start": "2026-11-25T16:00:00-08:00",
       "end": "2026-11-25T19:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12946493",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12991479",
+      "title": "JSU Bagel Bar & Hanukkah Meeting",
+      "primary_club": "Jewish Student Union",
+      "primary_club_id": "404471",
+      "club_names": [
+        "Jewish Student Union"
+      ],
+      "club_color_key": "organization:404471",
+      "location": "DVC H-113",
+      "online_url": null,
+      "start": "2026-11-25T16:00:00-08:00",
+      "end": "2026-11-25T17:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12991479",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
