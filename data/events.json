@@ -1,81 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-19T21:30:21.772538+00:00",
+  "last_updated": "2026-11-20T21:03:58.540305+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-19T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-20T00:00:00-08:00",
+  "window_start": "2026-11-20T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-21T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 14,
-    "api_collected": 14,
+    "api_reported": 13,
+    "api_collected": 13,
     "outside_window": 0,
-    "included": 14,
+    "included": 13,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12946863",
-      "title": "International Cultural Expo",
-      "primary_club": "International Students Club",
-      "primary_club_id": "263469",
-      "club_names": [
-        "International Students Club",
-        "Chinese Students Association",
-        "Japanese Association",
-        "Kabayan Kaibigan (Filipino Club)",
-        "South Asian Student Alliance",
-        "Afghan Student Association",
-        "Jewish Student Union",
-        "Taiwanese Student Association"
-      ],
-      "club_color_key": "organization:263469",
-      "location": "DVC the Commons",
-      "online_url": null,
-      "start": "2026-11-19T11:00:00-08:00",
-      "end": "2026-11-19T14:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12946863",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12918196",
-      "title": "Aspiring Minds Film Festival",
-      "primary_club": "DVC Film Club",
-      "primary_club_id": "263495",
-      "club_names": [
-        "DVC Film Club"
-      ],
-      "club_color_key": "organization:263495",
-      "location": "Diablo Valley College Public Forum",
-      "online_url": null,
-      "start": "2026-11-19T17:00:00-08:00",
-      "end": "2026-11-19T20:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12918196",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12966180",
-      "title": "Last SPS Meeting for Fall 2026--Star Viewing Party!",
-      "primary_club": "Society of Physics Students",
-      "primary_club_id": "399477",
-      "club_names": [
-        "Society of Physics Students"
-      ],
-      "club_color_key": "organization:399477",
-      "location": "PS-121",
-      "online_url": null,
-      "start": "2026-11-19T17:30:00-08:00",
-      "end": "2026-11-19T20:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12966180",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12965074",
       "title": "Open Studio: A Behind-the-Scenes Recording Experience",
@@ -159,6 +101,23 @@
       "start": "2026-11-23T16:00:00-08:00",
       "end": "2026-11-23T17:30:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12984492",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12993932",
+      "title": "AGS Banquet",
+      "primary_club": "Alpha Gamma Sigma Honor Society",
+      "primary_club_id": "263428",
+      "club_names": [
+        "Alpha Gamma Sigma Honor Society"
+      ],
+      "club_color_key": "organization:263428",
+      "location": "Diablo Room",
+      "online_url": null,
+      "start": "2026-11-23T16:00:00-08:00",
+      "end": "2026-11-23T18:00:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12993932",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     },
@@ -261,6 +220,23 @@
       "start": "2026-11-25T17:30:00-08:00",
       "end": "2026-11-25T18:30:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12954034",
+      "online_url_source": null,
+      "rss_supplement_status": "matched"
+    },
+    {
+      "id": "12993929",
+      "title": "Kabayan Kaibigan General Meeting #7",
+      "primary_club": "Kabayan Kaibigan (Filipino Club)",
+      "primary_club_id": "387206",
+      "club_names": [
+        "Kabayan Kaibigan (Filipino Club)"
+      ],
+      "club_color_key": "organization:387206",
+      "location": "Community Conference Center",
+      "online_url": null,
+      "start": "2026-11-25T17:30:00-08:00",
+      "end": "2026-11-25T19:30:00-08:00",
+      "url": "https://dvc.campuslabs.com/engage/event/12993929",
       "online_url_source": null,
       "rss_supplement_status": "matched"
     }
