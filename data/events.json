@@ -1,57 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-20T21:03:58.540305+00:00",
+  "last_updated": "2026-11-21T20:05:15.946372+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-20T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-21T00:00:00-08:00",
+  "window_start": "2026-11-21T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-22T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 13,
-    "api_collected": 13,
+    "api_reported": 11,
+    "api_collected": 11,
     "outside_window": 0,
-    "included": 13,
+    "included": 11,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12965074",
-      "title": "Open Studio: A Behind-the-Scenes Recording Experience",
-      "primary_club": "Music Production Club",
-      "primary_club_id": "434529",
-      "club_names": [
-        "Music Production Club"
-      ],
-      "club_color_key": "organization:434529",
-      "location": "DVC Viking Studio (Library L 107)",
-      "online_url": null,
-      "start": "2026-11-20T15:00:00-08:00",
-      "end": "2026-11-20T16:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12965074",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12966201",
-      "title": "South Asian Culture Night",
-      "primary_club": "South Asian Student Alliance",
-      "primary_club_id": "398433",
-      "club_names": [
-        "South Asian Student Alliance"
-      ],
-      "club_color_key": "organization:398433",
-      "location": "DVC Cafeteria",
-      "online_url": null,
-      "start": "2026-11-20T17:00:00-08:00",
-      "end": "2026-11-20T19:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12966201",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12978273",
       "title": "Picnic Hike",
