@@ -1,40 +1,23 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-21T20:05:15.946372+00:00",
+  "last_updated": "2026-11-22T20:20:23.632685+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-21T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-22T00:00:00-08:00",
+  "window_start": "2026-11-22T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-23T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 11,
-    "api_collected": 11,
+    "api_reported": 10,
+    "api_collected": 10,
     "outside_window": 0,
-    "included": 11,
+    "included": 10,
     "rss_supplement_unavailable": 0
   },
   "warnings": [],
   "events": [
-    {
-      "id": "12978273",
-      "title": "Picnic Hike",
-      "primary_club": "DVC Hiking Club",
-      "primary_club_id": "387746",
-      "club_names": [
-        "DVC Hiking Club"
-      ],
-      "club_color_key": "organization:387746",
-      "location": "Reinhardt Redwood Regional Park",
-      "online_url": null,
-      "start": "2026-11-21T11:00:00-08:00",
-      "end": "2026-11-21T13:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12978273",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12978275",
       "title": "Destress with DNA Club and Creative Arts Society!",
