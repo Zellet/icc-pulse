@@ -1,77 +1,25 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-24T00:49:29.179425+00:00",
+  "last_updated": "2026-11-24T23:00:34.435247+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-23T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-24T00:00:00-08:00",
+  "window_start": "2026-11-24T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-25T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
   },
   "counts": {
-    "api_reported": 10,
-    "api_collected": 10,
+    "api_reported": 7,
+    "api_collected": 7,
     "outside_window": 0,
-    "included": 10,
+    "included": 7,
     "rss_supplement_unavailable": 1
   },
   "warnings": [
     "1 event(s) are absent from RSS; extra online links could not be checked for them."
   ],
   "events": [
-    {
-      "id": "12978275",
-      "title": "Destress with DNA Club and Creative Arts Society!",
-      "primary_club": "Disability and Neurodiversity Alliance",
-      "primary_club_id": "417450",
-      "club_names": [
-        "Disability and Neurodiversity Alliance",
-        "Creative Arts Society"
-      ],
-      "club_color_key": "organization:417450",
-      "location": "Student Union 210",
-      "online_url": null,
-      "start": "2026-11-23T13:00:00-08:00",
-      "end": "2026-11-23T14:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12978275",
-      "online_url_source": null,
-      "rss_supplement_status": "not_in_rss"
-    },
-    {
-      "id": "12984492",
-      "title": "WISE Research project, presentation",
-      "primary_club": "Women In STEM Excellence",
-      "primary_club_id": "370754",
-      "club_names": [
-        "Women In STEM Excellence"
-      ],
-      "club_color_key": "organization:370754",
-      "location": "Diablo Valley College Cafeteria",
-      "online_url": null,
-      "start": "2026-11-23T16:00:00-08:00",
-      "end": "2026-11-23T17:30:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12984492",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
-    {
-      "id": "12993932",
-      "title": "AGS Banquet",
-      "primary_club": "Alpha Gamma Sigma Honor Society",
-      "primary_club_id": "263428",
-      "club_names": [
-        "Alpha Gamma Sigma Honor Society"
-      ],
-      "club_color_key": "organization:263428",
-      "location": "Diablo Room",
-      "online_url": null,
-      "start": "2026-11-23T16:00:00-08:00",
-      "end": "2026-11-23T18:00:00-08:00",
-      "url": "https://dvc.campuslabs.com/engage/event/12993932",
-      "online_url_source": null,
-      "rss_supplement_status": "matched"
-    },
     {
       "id": "12987572",
       "title": "DVC Poetry Club Fourth Meeting! 📚🖊️",
@@ -82,12 +30,12 @@
       ],
       "club_color_key": "organization:435048",
       "location": "Online",
-      "online_url": "https://4cd.zoom.us/j/7420744584?pwd=6C5pQN2PrvbVSiAz9vWYT7YyWBRx3b.1&omn=85443492017",
+      "online_url": null,
       "start": "2026-11-24T14:00:00-08:00",
       "end": "2026-11-24T15:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12987572",
-      "online_url_source": "rss_location",
-      "rss_supplement_status": "matched"
+      "online_url_source": null,
+      "rss_supplement_status": "not_in_rss"
     },
     {
       "id": "12927863",
