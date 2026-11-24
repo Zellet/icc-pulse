@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "candidate_only": false,
-  "last_updated": "2026-11-22T20:20:23.632685+00:00",
+  "last_updated": "2026-11-24T00:49:29.179425+00:00",
   "timezone": "America/Los_Angeles",
-  "window_start": "2026-11-22T00:00:00-08:00",
-  "window_end_exclusive": "2026-12-23T00:00:00-08:00",
+  "window_start": "2026-11-23T00:00:00-08:00",
+  "window_end_exclusive": "2026-12-24T00:00:00-08:00",
   "sources": {
     "events": "https://dvc.campuslabs.com/engage/api/discovery/event/search",
     "online_link_supplement": "https://dvc.campuslabs.com/engage/events.rss"
@@ -14,9 +14,11 @@
     "api_collected": 10,
     "outside_window": 0,
     "included": 10,
-    "rss_supplement_unavailable": 0
+    "rss_supplement_unavailable": 1
   },
-  "warnings": [],
+  "warnings": [
+    "1 event(s) are absent from RSS; extra online links could not be checked for them."
+  ],
   "events": [
     {
       "id": "12978275",
@@ -34,7 +36,7 @@
       "end": "2026-11-23T14:00:00-08:00",
       "url": "https://dvc.campuslabs.com/engage/event/12978275",
       "online_url_source": null,
-      "rss_supplement_status": "matched"
+      "rss_supplement_status": "not_in_rss"
     },
     {
       "id": "12984492",
